@@ -19,16 +19,11 @@ table {
 	border-collapse: collapse;
 }
 
-tr :hover {
+
+#november-sales-goal {
     background-color: hsla(150, 50%, 30%, .5);
 }
 
-/* caption {
-  padding: 10px;
-  caption-side: bottom;
-	color: var(--back);
-	font-size: .85rem;
-} */
 
 tr:first-child th {
 	background-color: var(--back);
