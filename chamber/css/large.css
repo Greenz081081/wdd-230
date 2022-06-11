@@ -346,13 +346,6 @@
         grid-column: 5/6;
     }
 
-    /* body {
-        max-width: 900px;
-        margin: 0 auto;
-        float: none;
-    } */
-
-
     .discovery-pictures {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -448,8 +441,14 @@
         height: 400px;
     }
 
-    /* .discovery-footer {
-        margin-top: -40px;
-    } */
+    .number-of-visits {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .page-load {
+        grid-row: 2;
+        grid-column: 5;
+    }
 
 }
