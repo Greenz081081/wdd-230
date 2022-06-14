@@ -27,11 +27,17 @@
         padding: 2px;
         box-shadow: 5px 5px 5px #999;
     } 
+
+    .site-logo h4 {
+        margin-left: 70px;
+        margin-top: -40px;
+        font-size: small;
+    }
     
-    .heading {
+    /* .heading {
         font-size: small;
         padding: 10px;
-    }
+    } */
     
     
     /* .social {
