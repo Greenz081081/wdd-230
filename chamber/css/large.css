@@ -9,11 +9,17 @@
         padding: 80px;
     }
 
-    .heading {
+    .site-logo h4 {
+        margin-left: 90px;
+        margin-top: -50px;
+        font-size: 18px;
+    }
+
+    /* .heading {
         display: flex;
         font-size: 20px;
         margin-left: -300px;
-    }
+    } */
 
     .header-nav {
         display: flex;

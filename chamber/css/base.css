@@ -22,10 +22,16 @@ header img {
     box-shadow: 5px 5px 5px #999;
 } 
 
-.heading {
+.site-logo h4 {
+    margin-left: 70px;
+    margin-top: -40px;
+    font-size: small;
+}
+
+/* .heading {
     font-size: small;
     padding: 10px;
-}
+} */
 
 /* .date {
     display: flex;
@@ -39,6 +45,7 @@ header img {
     position: absolute;
     left: 100px;
     text-align: center;
+    margin-top: -4px;
 }
 
 nav {
