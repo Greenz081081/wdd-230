@@ -6,6 +6,7 @@ header {
     border-bottom: 1px solid #bbb;
     padding: 10px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 header img {
@@ -132,6 +133,20 @@ main img {
     font-size: 15px;
     margin-top: -40px;
     
+}
+
+.join a {
+    color: white;
+    text-decoration: none;
+}
+
+.join p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.join a:hover {
+    text-decoration: underline;
 }
 
 #join {

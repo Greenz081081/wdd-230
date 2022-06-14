@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/discover/shortcut_icon.png">
+    <title>Join</title>
+    <meta name="description" 
+    content="A discovery page that contains statistical and demographic data about the city
+    and town selected for the chamber project. Contains galeery of pictures in one column
+    down the side of the page.">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+    <header>
+        <div class="site-logo">
+            <img src="images/logo_2.jpg" alt="">
+        </div>
+        <section class="heading">
+            <h4>EChamberOfCommerce</h4>
+        </section>
+            <nav class="header-nav">
+                <a id="whatsapp" href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="WhatsApp Icon"></a>
+                <a id="facebook" href="https://www.whatsapp.com/"><img src="images/facebook_icon.png" alt="Facebook Icon"></a>
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNav">
+                    <li class="active"><a href="chamber.html">Home</a></li>
+                    <li><a href="index.html">Target Audience</a></li>
+                    <li><a href="index.html">Color Scheme</a></li>
+                    <li><a href="index.html">Typography</a></li>
+                </ul>
+                <div class="date"></div>
+            </nav>
+            
+    </header>
+    <main class="join-main">
+        <div class="join-home-grid">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"
+                        scope="colgroup">Welcome and Join our Page</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <form method="get" action="thankyou.html">
+                        <tr>
+                            <td>
+                                <label for="first-name" id="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" placeholder="First name*" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="first-name" id="first-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" placeholder="Last name*" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="position" id="position">Position:</label>
+                                <input type="text"  id="business-position" minlength="7" name="position" placeholder="Position">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last-name id="last-name">Email:</label>
+                                <input type="email" name="last-name" placeholder="join222@gmail.com" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last-name id="last-name">Phone:</label>
+                                <input type="tel" name="last-name" placeholder="xxx-xxxxxxxxxx" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last-name id="last-name title="business name">Business Name:</label>
+                                <input type="text" name="last-name" placeholder="Business" required="required">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" id="submit" name="submit">Submit</button>
+                            </td>
+                        </tr>
+                    </form>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="discovery-footer">
+        <div class="footer-logo">
+            <img src="images/logo_2.jpg" alt="Footer Icon">
+        </div>
+        <section class="footer-heading">
+            <h2>EChamber Of Commerce</h2>
+            <p>Eket, Akwa Ibom State, Nigeria</p>
+        </section>
+        <div class="info">
+            <p>Mail: Blessededet94@gmail.com</p>
+            <p>Phone: +234 - 8108139886</p>
+            <p class="map-link"><a href="https://www.google.com/maps/place/Nigeria/@9.0338725,8.677457,6z/data=!3m1!4b1!4m5!3m4!1s0x104e0baf7da48d0d:0x99a8fe4168c50bc8!8m2!3d9.081999!4d8.675277">
+                <em>Location Map 🎈</em></a>
+            </p>
+        </div>
+        <p class="copyright">
+            &copy; 2022 Echamberofcommerce| Emediong H. Edet | WDD 230 Project | Last Modification: <span id="currentdate"></span>
+        </p>
+        
+        <p class="number-of-visits"><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <p class="page-load">Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
+    </footer>
+    <script src="js/discovery.js"></script>
+    <script src="js/chamber.js"></script>
+    <script src="js/discovery-visits.js"></script>
+</body>
+</html>
